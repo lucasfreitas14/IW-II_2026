@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="JS/crud.js"></script>
+    <title>Tom&Jerry</title>
+</head>
+<body onload="bd()">
+    <div class="container">
+            <div class="main-cartoon">
+                <div class="elemento-cartoon">
+                    <h1>Cadastro de Usuário</h1>
+                    <img src="imagem/Tom.png" alt="Tom&Jerry" class="tom-cartoon">
+                </div>
+                <div class="form-cartoon">
+                    <input type="text" id="nome" placeholder="Insira seu nome" class="box-cartoon">
+                    <input type="text" id="login" placeholder="Crie seu Login" class="box-cartoon">
+                    <input type="text" id="senha" placeholder="Insira sua senha" class="box-cartoon">
+                    <input type="text" id="email" placeholder="Insira seu email" class="box-cartoon">
+
+                    <div class="btn-cartoon">
+                        <button type="button" onclick="adicionar()" class="botao-cartoon">Cadastrar</button>
+                        <button type="button" class="botao-cartoon">Sair</button>
+                    </div>
+                </div>
+            </div> 
+    </div>
+
+</body>
+</html>

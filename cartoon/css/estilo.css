@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color: rgb(151, 67, 67);
+}
+
+.container {
+    margin: 100px;
+    border: 2px solid rgb(250, 205, 149);
+    border-radius: 15px;
+    background-color: rgb(253, 232, 206);
+}
+
+.main-cartoon {
+    margin: 25px;
+    border: 2px solid rgb(250, 205, 149);
+    border-radius: 15px;
+    background-color: rgb(219, 180, 131);
+    padding-left: 80px;
+    padding-right: 80px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.elemento-cartoon {
+    margin: 25px;
+    border: 1px solid brown;
+}
+
+.tom-cartoon {
+    width: 340px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.form-cartoon {
+    padding-left: 28px;
+    padding-right: 90px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-cartoon {
+    width: 330;
+    height: 18px;
+
+    font-size: 14px;
+    border: 1px solid rgb(79, 79, 50);
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.botao-cartoon {
+    width: 165px;
+    height: 24px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 180, 131);
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
